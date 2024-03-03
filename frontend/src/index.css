@@ -1,0 +1,71 @@
+/* Table.css */
+
+/* Optional: Style for the table container */
+
+.Log-Main{
+  margin-top:50px;
+}
+.header{
+  height: 8%;
+  top:0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.sorter{
+  width: 20%;
+  
+}
+.searcher{
+    width: 80%;
+}
+.table-container {
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Optional: Style for the table header */
+.table-header {
+  display: flex;
+  background-color: rgba(85, 85, 85, 0.8);
+  font-weight: bold;
+}
+
+/* Optional: Style for the table rows */
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Optional: Style for the table cells (td) */
+.table-cell {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+  word-wrap: break-word; /* This ensures content wraps within cells */
+  word-break: break-word;
+  overflow-wrap: break-word;
+  border: 0.5px solid black;
+}
+
+/* Optional: Style for the table body */
+.table-body {
+  overflow-y: auto;
+  /* max-height: 200px; Add a fixed height to create a scrollable body if needed */
+}
+.table-cell p{
+  cursor: pointer;
+  color: blue;
+}
+
+.table-row:nth-child(even) {
+  background-color: rgb(208, 204, 204); /* Grey background color */
+}
